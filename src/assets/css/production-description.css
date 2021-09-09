@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text-thin {
+  font-family: "Roboto Thin";
+}
+
+.product-description-info .product-info .product-text {
+  font-family: "Roboto Regular";
+}
+
+.product-description-info .product-info .product-text .product-name {
+  font-family: "Roboto Black";
+}
+
+.product-description-info .product-info .product-text .cost {
+  color: #72a276;
+}
+
+.product-description-info .product-info .product-text .product-feature {
+  font-family: "Roboto Bold";
+}
+
+.product-description-info .product-detail-description .first-btn {
+  border-radius: 15px 0 0 15px;
+}
+
+.product-description-info .product-detail-description .last-btn {
+  border-radius: 0 15px 15px 0;
+}
+
+.product-description-info .product-detail-description .info-dev {
+  color: white;
+}
+
+.product-description-info .product-detail-description .info-dev .nav-item {
+  background-color: #36413e;
+}
+
+.product-description-info .product-detail-description .info-dev .nav-item .active {
+  background-color: #72a276;
+}
+
+.product-description-info .product-detail-description .info-dev .nav-item button {
+  background-color: #36413e;
+  color: white;
+  border: 0;
+  padding: 1.5rem;
+}
+
+.product-description-info .product-detail-description .info-dev .active {
+  background-color: #72a276;
+}
+
+.product-description-info .product-detail-description .tab-content {
+  font-size: 20px;
+  font-family: "Roboto Regular";
+}
+
+.product-description-info .product-detail-description .tab-content h3 {
+  font-family: "Roboto Black";
+}
+
+.product-description-info .product-detail-description .tab-content h5 {
+  font-family: "Roboto Black";
+}
+
+.product-description-info .product-variation .card-header {
+  background-color: #36413e;
+  color: white;
+}
+
+.product-description-info .product-variation .card-header .card-title {
+  font-family: "Roboto Thin";
+  font-size: "Roboto Regular";
+}
+
+.product-description-info .product-variation .card-header .card-title span {
+  font-family: "Roboto Bold";
+}
+
+.product-description-info .product-variation .card-body .cost {
+  color: #72a276;
+}
+
+.product-description-info .product-variation .card-body .select-variation {
+  font-family: "Roboto Bold";
+}
+/*# sourceMappingURL=production-description.css.map */

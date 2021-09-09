@@ -1,0 +1,87 @@
+@import 'fonts';
+@import 'variables';
+
+.doctor-categories-info{
+    h3{
+        font-family: $font-black;
+    }
+    h5{
+        font-family: $font-bold;
+    }
+    .cat-info{
+        width: 80%;
+
+        p{
+            font-family: $font-regular;
+        }
+
+        .btn{
+            border-color: $indian-red;
+            background-color: white;
+            color: $indian-red;
+        }
+    }
+    
+}
+.treatment-options{
+    background-color: $bullet-black;
+    padding: 2%;
+
+    .text-green{
+        color: $forest-green;
+    }
+
+    .btn-white{
+        color: $indian-red;
+        background-color: white;
+        border-color: $indian-red;
+    }
+
+    .product-name{
+        font-family: $font-bold;
+    }
+}
+.product-detail-description{
+    padding: 2%;
+    .first-btn{
+        border-radius: 15px 0 0 15px;
+    }
+    .last-btn{
+        border-radius: 0 15px 15px 0;
+    }
+    .info-dev{
+        // background-color: $bullet-black;
+        color: white;
+
+        .nav-item{
+            background-color: $bullet-black;
+            .active{
+                background-color: $forest-green;
+            }
+
+            button{
+                background-color: $bullet-black;
+                color: white;
+                border:0;
+                padding: 1.5rem;
+            }
+        }
+        .active{
+            background-color: $forest-green;
+        }
+    }
+
+    .tab-content{
+        font-size: 20px;
+        font-family: $font-regular;
+        h3{
+            font-family: $font-black;
+        }
+        h5{
+            font-family: $font-black;
+        }
+        p{
+            font-family: $font-thin;
+        }
+    }
+}

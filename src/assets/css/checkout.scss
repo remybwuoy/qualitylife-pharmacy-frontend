@@ -1,0 +1,39 @@
+@import 'fonts';
+@import 'variables';
+
+.bg-red{
+    background-color: $indian-red;
+    color:white;
+}
+.product-checkout-info{
+    h3{
+        font-family: $font-black;
+    }
+    .comfirm-text{
+        font-family: $font-black;
+    }
+
+    .form-heading{
+        font-family: $font-bold;
+    }
+    .order-summary{
+        table{
+            .t-time{
+                width: 40%;
+            }
+            .t-variation{
+                width: 20%;
+            } 
+            .t-trash, .t-cost, .t-unit, .t-quantity{
+                width: 10%;
+                // text-align: right;
+            }
+            .t-trash{
+                p{
+                    text-align: right;
+                }
+            }
+        }
+        
+    }
+}
