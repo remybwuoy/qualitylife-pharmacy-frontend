@@ -1,0 +1,50 @@
+
+
+@import 'fonts';
+@import 'variables';
+
+.body-content{
+    padding: 3rem 5%;
+
+    .bcramp{
+        margin: 3rem auto;
+    }
+    #accordionExample{
+        .accordion-item{
+            .filter-accordion{
+                color:white;
+                button{
+                    background-color: $bullet-black;
+                    color:white;
+
+                    .fa{
+                        color:white;
+                    }
+                }
+                
+            }
+            .accordion-body{
+                ul{
+                    list-style: none;
+                }
+            }
+        }
+        
+    }
+
+    #sortbut{
+        background-color: $bullet-black;
+        padding: auto 5rem;
+    }
+
+    .card-item-list{
+        // .card-columns {
+        //     @include media-breakpoint-only(lg) {
+        //       column-count: 4;
+        //     }
+        //     @include media-breakpoint-only(xl) {
+        //       column-count: 5;
+        //     }
+        // }
+    }
+}

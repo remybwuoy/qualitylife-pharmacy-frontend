@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.doctor-categories-info h3 {
+  font-family: "Roboto Black";
+}
+
+.doctor-categories-info h5 {
+  font-family: "Roboto Bold";
+}
+
+.doctor-categories-info .cat-info {
+  width: 80%;
+}
+
+.doctor-categories-info .cat-info p {
+  font-family: "Roboto Regular";
+}
+
+.doctor-categories-info .cat-info .btn {
+  border-color: #dd5560;
+  background-color: white;
+  color: #dd5560;
+}
+
+.treatment-options {
+  background-color: #36413e;
+  padding: 2%;
+}
+
+.treatment-options .text-green {
+  color: #72a276;
+}
+
+.treatment-options .btn-white {
+  color: #dd5560;
+  background-color: white;
+  border-color: #dd5560;
+}
+
+.treatment-options .product-name {
+  font-family: "Roboto Bold";
+}
+
+.product-detail-description {
+  padding: 2%;
+}
+
+.product-detail-description .first-btn {
+  border-radius: 15px 0 0 15px;
+}
+
+.product-detail-description .last-btn {
+  border-radius: 0 15px 15px 0;
+}
+
+.product-detail-description .info-dev {
+  color: white;
+}
+
+.product-detail-description .info-dev .nav-item {
+  background-color: #36413e;
+}
+
+.product-detail-description .info-dev .nav-item .active {
+  background-color: #72a276;
+}
+
+.product-detail-description .info-dev .nav-item button {
+  background-color: #36413e;
+  color: white;
+  border: 0;
+  padding: 1.5rem;
+}
+
+.product-detail-description .info-dev .active {
+  background-color: #72a276;
+}
+
+.product-detail-description .tab-content {
+  font-size: 20px;
+  font-family: "Roboto Regular";
+}
+
+.product-detail-description .tab-content h3 {
+  font-family: "Roboto Black";
+}
+
+.product-detail-description .tab-content h5 {
+  font-family: "Roboto Black";
+}
+
+.product-detail-description .tab-content p {
+  font-family: "Roboto Thin";
+}
+/*# sourceMappingURL=doctor-categories.css.map */

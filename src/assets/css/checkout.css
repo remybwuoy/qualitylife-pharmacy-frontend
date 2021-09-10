@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bg-red {
+  background-color: #dd5560;
+  color: white;
+}
+
+.product-checkout-info h3 {
+  font-family: "Roboto Black";
+}
+
+.product-checkout-info .comfirm-text {
+  font-family: "Roboto Black";
+}
+
+.product-checkout-info .form-heading {
+  font-family: "Roboto Bold";
+}
+
+.product-checkout-info .order-summary table .t-time {
+  width: 40%;
+}
+
+.product-checkout-info .order-summary table .t-variation {
+  width: 20%;
+}
+
+.product-checkout-info .order-summary table .t-trash, .product-checkout-info .order-summary table .t-cost, .product-checkout-info .order-summary table .t-unit, .product-checkout-info .order-summary table .t-quantity {
+  width: 10%;
+}
+
+.product-checkout-info .order-summary table .t-trash p {
+  text-align: right;
+}
+/*# sourceMappingURL=checkout.css.map */

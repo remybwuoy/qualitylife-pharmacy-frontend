@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.assessment-div h3 {
+  font-family: "Roboto Black";
+}
+
+.assessment-div h5 {
+  font-family: "Roboto Bold";
+}
+
+.assessment-div .login {
+  background-color: #36413e;
+  text-align: center;
+  border-radius: 2px;
+  color: white;
+}
+
+.assessment-div .login .text-red {
+  color: #dd5560;
+}
+
+.assessment-div .assessment-progress .card .card-header {
+  background-color: #36413e;
+  color: white;
+}
+
+.accordion{
+border:1px solid #000;
+}
+.accordion-item button{
+  padding:20px;
+
+}
+/*# sourceMappingURL=assessment.css.map */

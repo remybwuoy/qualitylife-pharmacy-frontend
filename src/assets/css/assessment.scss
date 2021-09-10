@@ -1,0 +1,36 @@
+@import 'fonts';
+@import 'variables';
+
+.assessment-div{
+    h3{
+        font-family: $font-black;
+    }
+    h5{
+        font-family: $font-bold;
+    }
+    .bg-red{
+        color: #dd5560;
+    }
+
+    .login{
+        background-color: $bullet-black;
+        text-align: center;
+        // padding: 2rem auto;
+        border-radius: 2px;
+
+        color: white;
+
+        .text-red{
+            color: $indian-red;
+        }
+    }
+    .assessment-progress{
+        .card{
+            .card-header{
+                background-color: $bullet-black;
+                color: white;
+                
+            }
+        }
+    }
+}
