@@ -30,6 +30,7 @@
   font-family: "Roboto Thin";
 }
 
+<<<<<<< HEAD
 .breadcrumb{
   font-weight: 500;
 }
@@ -39,6 +40,8 @@
   font-weight: bold;
 }
 
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
 .product-description-info .product-info .product-text {
   font-family: "Roboto Regular";
 }
@@ -65,7 +68,10 @@
 
 .product-description-info .product-detail-description .info-dev {
   color: white;
+<<<<<<< HEAD
   font-size: 13px;
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
 }
 
 .product-description-info .product-detail-description .info-dev .nav-item {
@@ -76,6 +82,7 @@
   background-color: #72a276;
 }
 
+<<<<<<< HEAD
 .product-description-info .product-detail-description .info-dev .nav-item .nav-link .active {
   background-color: #72a276;
 }
@@ -87,6 +94,8 @@
   font-weight: bold;
 }
 
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
 .product-description-info .product-detail-description .info-dev .nav-item button {
   background-color: #36413e;
   color: white;

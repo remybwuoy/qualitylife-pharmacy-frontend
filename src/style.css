@@ -8,6 +8,7 @@
 @import url('assets/css/production-description.css');
 @import url('assets/css/checkout.css');
 @import url('assets/css/doctor-categories.css');
+<<<<<<< HEAD
 @import url('assets/css/assessment.css');
 
 
@@ -48,3 +49,6 @@ nav .navbar-collapse li a:hover{
 .border-right{
     border-right:1px solid #000;
 }
+=======
+@import url('assets/css/assessment.css');
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
