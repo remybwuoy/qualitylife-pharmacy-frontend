@@ -76,7 +76,7 @@ class Footer extends React.Component {
         {/* <!-- payment integration --> */}
         <div data-aos="fade-out" data-aos-duration="1000" class="container-fluid">
             <div class="mx-auto text-center row">
-                <img class="mx-auto col-md-6 offset-md-3" src="./images/payment.svg" alt="svg" width="100%"/>
+                <img class="mx-auto col-md-6 offset-md-3" src="http://qualitylifepharmacy.teamalfy.online/images/payment.svg" alt="svg" width="100%"/>
             </div>
             
         </div>

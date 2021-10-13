@@ -8,12 +8,12 @@ class Header extends React.Component {
         {/* <!-- top header --> */}
         <div class="container-fluid p-0 m-0">
             <div class="top-header">
-                <div class="row align-items-center m-0 p-0">
-                    <div class="col-md-4 col-sm-6 my-3">
-                       <img src="./assets/images/top-logo.svg" alt="logos" />
+                <div class="row d-flex justify-content-center m-0 p-0">
+                    <div class="col-md-4 col-sm-12 my-3">
+                       <img src="http://qualitylifepharmacy.teamalfy.online/images/top-logo.svg" alt="logos" />
                     </div>
 
-                    <div class="col-md-8 col-sm-6 my-3">
+                    <div class="col-md-8 col-sm-6 mt-5">
                         <div class="mb-4">
                             <div class="row text-center top-customer-service-info">
                                 <div class="col-sm-6 customer-service-number mt-2">      
@@ -49,7 +49,7 @@ class Header extends React.Component {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse text-white">
+                    <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                         <ul class="w-100 navbar-nav nav-pills nav-fill p-0 text-white">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">Direct Prescription</a>

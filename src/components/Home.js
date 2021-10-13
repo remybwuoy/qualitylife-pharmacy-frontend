@@ -12,11 +12,11 @@ class Home extends React.Component {
         {/* <!-- carosel --> */}
         <div data-aos="fade-in" data-aos-duration="1000" class="container-fluid page-slider" style={{minheight: '300px'}}>
               {/* <!-- second nav --> */}
-              <div class="container ">
+            <div class="container bg-transparent">
                 <nav class="navbar navbar-expand-lg navbar-dark" id="secondNav" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="container-fluid px-4 text-left">
+                    <div class="container-fluid text-center">
                         <ul class="w-100 navbar-nav nav-pills nav-fill p-0">
-                            <li class="nav-item">
+                            <li class="nav-item px-4">
                                 <a class="nav-link"><i class="fa fa-check-circle"></i>&nbsp;Express Delivery</a>
                             </li>
                             <li class="nav-item">
@@ -35,7 +35,6 @@ class Home extends React.Component {
                     </div>
                 </nav>
             </div>
-
             <div class="slider-text">
                 <p>Quality Life Sundry Shop | UK Online Pharmacy</p>
                 <h5 class="big-text">Get your Prescription delivered Direct!</h5>
@@ -43,9 +42,7 @@ class Home extends React.Component {
                 <p class="list-text"><i class="fa fa-check-circle"></i>&nbsp;Request your prescription</p>
                 <p class="list-text"><i class="fa fa-check-circle"></i>&nbsp;Free Delivery</p>
                 <p class="list-text"><i class="fa fa-check-circle"></i>&nbsp;Confidential service</p>
-                <button class="text-center btn btn-rounded">
-                    Register
-                </button>
+                <button class="text-center btn btn-rounded"> Register </button>
             </div>
         </div>
 
@@ -60,8 +57,9 @@ class Home extends React.Component {
             <div class="row text-center mt-4">
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
-                        <div class="mx-auto icon-div">
-                            <img src="./images/doc-icon.svg"  width="70%" style={{margintop: '10%'}}   alt="icon"/>
+                        <div class="mx-auto icon-div d-flex justify-content-center">
+                            {/* <img src="./images/doc-icon.svg"  width="70%" style={{margintop: '10%'}}   alt="icon"/> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/doc-icon.svg"  width="70%" style={{margintop: '10%'}}   alt="icon"/>
                         </div>
                         <p>Online Doctor</p>
                         <p>Our Online Doctor allows people to complete consultations online to assess suitability for medicines</p>
@@ -72,8 +70,9 @@ class Home extends React.Component {
                 </div>
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
-                        <div class="mx-auto icon-div">
-                            <img src="./assets/images/shop-icon.svg" width="45%" style={{margintop: '20%'}}   alt="shop"/>
+                        <div class="mx-auto icon-div d-flex justify-content-center">
+                            {/* <img src="./assets/images/shop-icon.svg" width="45%" style={{margintop: '20%'}}   alt="shop"/> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/shop-icon.svg" width="50%" style={{margintop: '30%'}}   alt="shop"/>                            
                         </div>
                         <p>Shop</p>
                         <p>We stock a wide range of pharmacy products. Why not pickup the essentials while you use our other services</p>
@@ -84,8 +83,9 @@ class Home extends React.Component {
                 </div>
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
-                         <div class="mx-auto icon-div">
-                            <img src="./assets/images/crucible.svg" width="50%" style={{margintop: '15%'}}   alt="svg"/>
+                         <div class="mx-auto icon-div d-flex justify-content-center">
+                            {/* <img src="./assets/images/crucible.svg" width="50%" style={{margintop: '15%'}}   alt="svg"/> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/crucible.svg" width="50%" style={{margintop: '15%'}}   alt="svg"/>                           
                         </div>
                         <p>Private Prescriptions</p>
                         <p>Already have a private prescription? Send it in to us and we can save you money on high price on expensive treatments</p>
@@ -109,25 +109,31 @@ class Home extends React.Component {
             <div class="row text-center my-4">
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/hairloss.svg" style={{width: '100%'}}   alt="hair"/>
+                        {/* <img src="./assets/images/clinics/hairloss.svg" style={{width: '100%'}}   alt="hair"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/hairloss.svg" style={{width: '100%'}}   alt="hair"/>
                         {/* <!-- <p>Hair loss</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/premature.svg" style={{width: '100%'}}  alt="svg"/>
+                        {/* <img src="./assets/images/clinics/premature.svg" style={{width: '100%'}}  alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/premature.svg" style={{width: '100%'}}   alt="hair"/>
+
                         {/* <!-- <p>Premature Ejaculation</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/erectile.svg" style={{width: '100%'}}  alt="svg"/>
+                        {/* <img src="./assets/images/clinics/erectile.svg" style={{width: '100%'}}  alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/erectile.svg" style={{width: '100%'}}   alt="erectile-dysfunction"/>
                         {/* <!-- <p>Erectile Dysfunction</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/weightloss.svg" style={{width: '100%'}}   alt="svg"/>
+                        {/* <img src="./assets/images/clinics/weightloss.svg" style={{width: '100%'}}   alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/weightloss.svg" style={{width: '100%'}}   alt="weightloss"/>
+
                         {/* <!-- <p>Weight Loss</p> --> */}
                     </div>
                 </div>
@@ -135,25 +141,29 @@ class Home extends React.Component {
             <div class="row text-center my-4">
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/malaria.svg" style={{width: '100%'}}   alt="svg"/>
+                        {/* <img src="./assets/images/clinics/malaria.svg" style={{width: '100%'}}   alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/malaria.svg" style={{width: '100%'}}   alt="malaria"/>
                         {/* <!-- <p>Hair loss</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/period.svg" style={{width: '100%'}} alt="period"/>
+                        {/* <img src="./assets/images/clinics/period.svg" style={{width: '100%'}} alt="period"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/period.svg" style={{width: '100%'}}   alt="period"/>
                         {/* <!-- <p>Premature Ejaculation</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/pills.svg" style={{width: '100%'}}   alt="svg"/>
+                        {/* <img src="./assets/images/clinics/pills.svg" style={{width: '100%'}}   alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/pills.svg" style={{width: '100%'}}   alt="pills"/>
                         {/* <!-- <p>Erectile Dysfunction</p> --> */}
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="mx-auto image-tiles">
-                        <img src="./assets/images/clinics/acne.svg" style={{width: '100%'}}  alt="svg"/>
+                        {/* <img src="./assets/images/clinics/acne.svg" style={{width: '100%'}}  alt="svg"/> */}
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/clinics/acne.svg" style={{width: '100%'}}   alt="acne"/>
                         {/* <!-- <p>Weight Loss</p> --> */}
                     </div>
                 </div>
@@ -167,8 +177,11 @@ class Home extends React.Component {
         <div data-aos="fade-in" data-aos-duration="1000" class="container-fluid text-center mb-4" id="order-within">
             <div class="row py-2">
                 <div class="col-md-4 my-3">
-                    <img class="social-links mx-3" src="./assets/images/twitter.svg"  alt="svg"/>
-                    <img class="social-links mx-3" src="./assets/images/facebook.svg"  alt="svg"/>
+                    {/* <img class="social-links mx-3" src="./assets/images/twitter.svg"  alt="svg"/>
+                    <img class="social-links mx-3" src="./assets/images/facebook.svg"  alt="svg"/> */}
+                    <a href="http://facebook.com" ><i class="fab fa-facebook-square social-links mx-4"></i></a>
+                    <a href="http://twitter.com" ><i class="fab fa-twitter text-info social-links mx-4"></i></a>
+
                 </div>
                 <div class="col-md-5 my-3">
                     <table class="w-100">
@@ -197,7 +210,8 @@ class Home extends React.Component {
             <div class="row">
                 <div class="col-md-3 p-1">
                     <div class="item-div">
-                        <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
+                        {/* <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/> */}
+                        <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
                         <p class="item-name">Paracetamol 250mg</p>
                         <p class="item-price-now"><span class="save-amount">Save &pound;3.00</span> &nbsp;Now<span class="now-amount"> &pound;7.00</span></p>
                         <p class="item-price-was">Was <span>&pound;10.00</span></p>
@@ -208,7 +222,8 @@ class Home extends React.Component {
                 </div>
                 <div class="col-md-3 p-1">
                     <div class="item-div">
-                        <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
+                        {/* <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/> */}
+                        <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
                         <p class="item-name">Paracetamol 250mg</p>
                         <p class="item-price-now">From<span class="now-amount"> &pound;7.00</span></p>
                         {/* <!-- <p></p> --> */}
@@ -220,7 +235,8 @@ class Home extends React.Component {
                 </div>
                 <div class="col-md-3 p-1">
                     <div class="item-div">
-                        <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
+                        {/* <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/> */}
+                        <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
                         <p class="item-name">Paracetamol 250mg</p>
                         <p class="item-price-now">From<span class="now-amount"> &pound;7.00</span></p>
                         {/* <!-- <p></p> --> */}
@@ -231,7 +247,8 @@ class Home extends React.Component {
                 </div>
                 <div class="col-md-3 p-1">
                     <div class="item-div">
-                        <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
+                        {/* <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/> */}
+                        <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg" style={{width: '90%'}}  alt="svg"/>
                         <p class="item-name">Paracetamol 250mg</p>
                         <p class="item-price-now"><span class="save-amount">Save &pound;3.00</span> &nbsp;Now<span class="now-amount"> &pound;7.00</span></p>
                         <p class="item-price-was">Was <span>&pound;10.00</span></p>
@@ -254,7 +271,8 @@ class Home extends React.Component {
                 <div class="col-md-3 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                         <div class="mx-auto icon-div">
-                            <img src="./assets/images/document.svg"  width="70%" style={{margintop: '10%'}}  alt="svg"/>
+                            {/* <img src="./assets/images/document.svg"  width="70%" style={{margintop: '10%'}}  alt="svg"/> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/document.svg"  width="70%" style={{margintop: '10%'}}  alt="svg"/>                       
                         </div>
                         <p class="works-title">Free online consultation</p>
                         <p class="works-text">Start a free 2 minutes online consultation with simple questions about your health</p>
@@ -268,7 +286,8 @@ class Home extends React.Component {
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                         <div class="mx-auto icon-div">
-                            <img src="./assets/images/drug.svg" width="45%" style={{margintop: '20%'}}  alt="svg" />
+                            {/* <img src="./assets/images/drug.svg" width="45%" style={{margintop: '20%'}}  alt="svg" /> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/drug.svg"  width="70%" style={{margintop: '10%'}}  alt="pills"/>                       
                         </div>
                         <p class="works-title">Order Medication</p>
                         <p class="works-text">Our UK team will now recommend a treatment and issue free prescription</p>
@@ -283,7 +302,8 @@ class Home extends React.Component {
                 <div class="col-md-3 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                          <div class="mx-auto icon-div">
-                            <img src="./assets/images/delivery.svg" width="50%" style={{margintop: '20%'}}  alt="svg" />
+                            {/* <img src="./assets/images/delivery.svg" width="50%" style={{margintop: '20%'}}  alt="svg" /> */}
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/delivery.svg"  width="70%" style={{margintop: '10%'}}  alt="svg"/>                       
                         </div>
                         <p class="works-title">Express Delivery</p>
                         <p class="works-text">Your treatment will be sent directly from our pharmacy in discrete packaging</p>
@@ -291,12 +311,13 @@ class Home extends React.Component {
                 </div>
             </div>
 
-            <div class="video-player mx-auto rounded-2">
+            <div class="video-player mx-auto">
                 {/* <video width="100%" height="100%" controls>
-                    <source src="https://www.youtube.com/watch?v=O3LmKImd-9Q" type="video/mp4"/>
-                    <source src="https://www.youtube.com/watch?v=O3LmKImd-9Q" type="video/ogg"/>
+                    <source src="https://www.youtube.com/watch?v=QWDaJ65iImM" type="video/mp4"/>
+                    <source src="https://www.youtube.com/watch?v=QWDaJ65iImM" type="video/ogg"/>
                   Your browser does not support the video tag.
                 </video> */}
+                
                 <iframe width="100%" height="500" class="rounded-2"
                    src="https://www.youtube.com/embed/O3LmKImd-9Q" title="YouTube video player" frameborder="0" allow="accelerometer; picture-in-picture">
                 </iframe>
@@ -362,7 +383,7 @@ class Home extends React.Component {
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                          <div class="mx-auto icon-div">
-                            <img src="./assets/images/doctor.svg" width="100%"  alt="svg" />
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/doctor.svg" width="100%"  alt="svg" />
                         </div>
                         <p class="works-title">Dr. Alfred Opare Saforo</p>
                         <p class="works-text position">General Practioner</p>
@@ -373,7 +394,7 @@ class Home extends React.Component {
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                          <div class="mx-auto icon-div">
-                            <img src="./assets/images/doctor.svg" width="100%"  alt="svg" />
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/doctor.svg" width="100%"  alt="svg" />
                         </div>
                         <p class="works-title">Dr. Alfred Opare Saforo</p>
                         <p class="works-text position">General Practioner</p>
@@ -384,7 +405,7 @@ class Home extends React.Component {
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto icon-parent-div">
                          <div class="mx-auto icon-div">
-                            <img src="./assets/images/doctor.svg" width="100%"  alt="svg" />
+                            <img src="http://qualitylifepharmacy.teamalfy.online/images/doctor.svg" width="100%"  alt="svg" />
                         </div>
                         <p class="works-title">Dr. Alfred Opare Saforo</p>
                         <p class="works-text position">General Practioner</p>
@@ -409,13 +430,13 @@ class Home extends React.Component {
                 <div class="col-md-6 align-items-stretch">
                     <div class="mx-auto">
                         <p class="main-text"><i class="fa fa-check-circle"></i>&nbsp; Plain packaging guarnateed</p>
-                        <img src="./assets/images/package.svg"  alt="svg"/>
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/package.svg"  alt="svg"/>
                     </div>
                 </div>
                 <div class="col-md-4 align-items-stretch">
                     <div class="mx-auto">
                         <p class="main-text"><i class="fa fa-check-circle"></i>&nbsp; Option to collect package from your local Post Office</p>
-                        <img src="./assets/images/building.svg"  alt="svg"/>
+                        <img src="http://qualitylifepharmacy.teamalfy.online/images/building.svg"  alt="svg"/>
                         <p class="sub-text">500+ local branches</p>
                     </div>
                 </div>
@@ -460,22 +481,24 @@ class Home extends React.Component {
                                     <div class="row">
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/guardian.svg"  alt="svg" style={{maxwidth: '100%'}} />
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/guardian.svg"  alt="svg" style={{maxwidth: '100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/metro.svg"  alt="svg" style={{maxwidth: '100%'}}/>
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/metro.svg"  alt="metro" style={{maxwidth: '100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/mailonline.svg"  alt="svg" style={{maxwidth: '100%'}}/>
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/mailonline.svg"  alt="svg" style={{maxwidth:' 100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/mirror.svg"  alt="svg" style={{maxwidth: '100%'}}/>
+                                                {/* <img src="./assets/images/press/mirror.svg"  alt="mirror" style={{maxwidth: '100%'}}/> */}
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/mirror.svg"  alt="mirror" style={{maxwidth: '100%'}}/>
+                                                
                                             </a>
                                         </div>
                                     </div>
@@ -487,22 +510,24 @@ class Home extends React.Component {
                                     <div class="row">
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/guardian.svg"  alt="svg" style={{maxwidth: '100%'}}/>
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/guardian.svg"  alt="svg" style={{maxwidth: '100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/metro.svg"  alt="metro" style={{maxwidth: '100%'}}/>
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/metro.svg"  alt="metro" style={{maxwidth: '100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/mailonline.svg"  alt="svg" style={{maxwidth:' 100%'}}/>
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/mailonline.svg"  alt="svg" style={{maxwidth:' 100%'}}/>
                                             </a>
                                         </div>
                                         <div class="col-md-3 my-2">
                                             <a href="#">
-                                                <img src="./assets/images/press/mirror.svg"  alt="mirror" style={{maxwidth: '100%'}}/>
+                                                {/* <img src="./assets/images/press/mirror.svg"  alt="mirror" style={{maxwidth: '100%'}}/> */}
+                                                <img src="http://qualitylifepharmacy.teamalfy.online/images/press/mirror.svg"  alt="mirror" style={{maxwidth: '100%'}}/>
+                                                
                                             </a>
                                         </div>
                                     </div>
