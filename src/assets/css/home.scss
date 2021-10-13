@@ -1,0 +1,487 @@
+
+@import 'fonts';
+@import 'variables';
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+.bg-b-black{
+    background-color: $bullet-black;
+}
+
+.bg-f-green{
+    background-color: $forest-green;
+}
+
+.btn{
+    background-color: $indian-red;
+    color: white;
+}
+
+#secondNav{
+    background-color: $bullet-black;
+    text-align: left;
+    color: white;
+
+    a{
+        color: white;
+        text-align: left;
+    }
+}
+.title-text{
+
+    h4{
+        color: $bullet-black;
+        font-family: $font-bold;
+        font-size: $font-large;
+        // line-height: 20px;
+    }
+    p{
+        color: $bullet-black;
+        font-family: $font-regular;
+        font-size: 15px;
+        // line-height: 20px;
+    }
+    
+}
+.top-header{
+    margin:0;
+    padding: 1rem 1rem;
+
+    .input-group{
+        input{
+            border-radius:25px 0 0 25px;
+            border-right: 0;
+        }
+        span{
+            border-radius: 0 25px 25px 0;
+            background-color: white;
+            border-left: 0px;
+            padding-right: 50px;
+        }
+            
+    }
+    .customer-service-number{
+        color: $bullet-black;
+        font-family: $font-bold;
+        font-size: $font-big;
+        line-height: 20px;
+    }
+    .top-customer-service-info{
+        div{
+            font-family: $font-bold;
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: $indian-red;
+            }
+        }
+        
+    }
+}
+
+.navigationbar{
+    background-color: $bullet-black;
+    color:white;
+
+    a{
+        color: white;
+    }
+    @media screen and (max-width: 360px) {
+        .nav-item{
+            text-align: left;
+            margin-top: 0.5rem;
+            
+            .nav-link{
+                padding-left: 1rem;
+            }
+        }
+        
+        #navbarSupportedContent{
+            margin-top: 2rem;
+        }
+    }
+
+    
+    // .nav-item{
+    //     @media screen and (max-width: 360px) {
+    //         text-align: left;
+    //         margin-top: 0.5rem;
+            
+    //         .nav-link{
+    //             padding-left: 1rem;
+    //         }
+    //     }
+    // }
+}
+.page-slider{
+    border:1px solid red;
+    background-color: beige;
+
+    background-image: url('../../images/slider-pic.svg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 700px;
+
+    .slider-text{
+        margin: 5rem auto;
+
+        .big-text{
+            font-family: $font-bold;
+            font-size: 30px;
+            margin-top: 3rem;
+        }
+        .small-text{
+            font-size: 10px;
+        }
+        .list-text{
+            font-family: $font-bold;
+        }
+    }
+}
+
+.our-other-service{
+    padding-top: 2.5rem;
+    margin: 2rem auto;
+
+    .icon-parent-div{
+        width: 80%;
+        margin: 2rem auto;
+        .icon-div{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: $forest-green;
+        }
+        button{
+            width: 150px;
+            background-color: $indian-red;
+            color: white;
+            font-family: $font-bold;
+            padding: 15px 35px;
+            font-size: 15px;
+            border-radius: 2px;
+            border:none;
+            // line-height: 15px;
+        }
+    }
+    
+    .row {
+        p{
+            color: $bullet-black;
+            font-family: $font-regular;
+            font-size: 15px;
+            margin:  1rem 0 1rem 0;
+        }
+    }
+}
+
+.popular-clinics{
+    margin: 4rem auto;
+
+    button{
+        min-width: 150px;
+        background-color: $indian-red;
+        color: white;
+        font-family: $font-bold;
+        padding: 15px 35px;
+        font-size: 15px;
+        border-radius: 2px;
+        border:none;
+    }
+}
+#order-within{
+    background-color: $bullet-black;
+
+    .social-links{
+        width: 40px;
+    }
+
+    table{
+        color: white;
+        .p1{
+            font-family: $font-thin;
+        }
+        .p2{
+            font-family: $font-bold;
+            font-size: $font-large;
+        }
+    }
+}
+.best-seller{
+    margin:5rem auto;
+    
+    p{
+        font-family: $font-regular;
+    }
+    .item-div{
+        height: 300px;
+    }
+    .item-name{
+        margin: 0 auto;
+    }
+    .item-price-now{
+        margin: 0 auto;
+        
+        .save-amount{
+            color: $indian-red;
+        }
+        .now-amount{
+            color: $forest-green;
+        }
+    }
+    .item-price-was{
+        margin: 0 auto;
+        text-decoration: line-through;
+        
+        span{
+            color: $forest-green;
+            
+        }
+    }
+    button{
+        margin: 2rem auto;
+    }
+}
+.how-it-works{
+    .icon-parent-div{
+        width: 80%;
+        margin: 2rem auto;
+        .icon-div{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: $forest-green;
+
+            // img{
+            //     width: 70%;
+            //     margin-top: 10%;
+            // }
+        }
+        .works-title{
+            font-family: $font-bold;
+        }
+        .works-text{
+            line-height: 20px;
+        }
+        button{
+            width: 150px;
+            background-color: $indian-red;
+            color: white;
+            font-family: $font-bold;
+            padding: 15px 35px;
+            font-size: 15px;
+            border-radius: 2px;
+            border:none;
+            // line-height: 15px;
+        }
+    }
+    
+    .row {
+        p{
+            color: $bullet-black;
+            font-family: $font-regular;
+            font-size: 15px;
+            margin:  1rem 0 1rem 0;
+        }
+    }
+    .video-player{
+        margin: 5rem auto;
+        width: 80%;
+        min-height: 350px;
+        max-height: 500px;
+        // background-color: red;
+    }
+}
+
+.patient-thoughts{
+    background-color: $bullet-black;
+    padding: 3rem 0;
+    .title-text{
+
+        h4{
+            color: white;
+            font-family: $font-bold;
+            font-size: $font-large;
+            // line-height: 20px;
+        }
+        p{
+            color: white;
+            font-family: $font-regular;
+            font-size: 15px;
+            // line-height: 20px;
+        }
+        
+    }
+
+    .comment-box{
+        height: 250px;
+
+        .comment-text{
+            font-family: $font-thin;
+            width: 70%;
+            margin: 1rem auto;
+        }
+
+        .star-icon{
+            color: green;
+        }
+
+        .s-pilot{
+            margin: 2rem auto 1rem  auto;
+        }
+
+        .tpilot{
+            font-family: $font-bold;
+            font-size: 30px;
+        }
+        .star-green-bg{
+            background-color: green;
+            padding: 4px;
+
+            .star-icon-white{
+                color: white;
+            }
+        }
+
+    }
+}
+
+.our-team{
+    margin:5rem auto;
+
+    .icon-parent-div{
+        width: 80%;
+        margin: 2rem auto;
+        .works-title{
+            font-family: $font-bold;
+            margin: 1rem auto;
+        }
+        .works-text{
+            font-family: $font-regular;
+            line-height: 20px;
+            margin: 4px auto;
+        }
+        .gmc-code{
+            color: $forest-green;
+        }
+        .icon-div{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: $forest-green;
+        }
+        button{
+            width: 150px;
+            background-color: $indian-red;
+            color: white;
+            font-family: $font-bold;
+            padding: 15px 35px;
+            font-size: 15px;
+            border-radius: 2px;
+            border:none;
+            // line-height: 15px;
+        }
+    }
+}
+
+.our-discrete-service{
+    .main-text{
+        font-family: $font-bold;
+        color: $bullet-black;
+        margin: 3rem auto;
+    }
+    .sub-text{
+        font-family: $font-thin;
+        margin: 3rem auto;
+    }
+}
+
+.about-us{
+    background-color: $bullet-black;
+    padding: 3rem 0;
+    margin: 3rem 0;
+    .title-text{
+
+        h4{
+            color: white;
+            font-family: $font-bold;
+            font-size: $font-large;
+            // line-height: 20px;
+        }
+        p{
+            color: white;
+            font-family: $font-regular;
+            font-size: 15px;
+            // line-height: 20px;
+        }
+        
+    }
+}
+
+.in-the-press{
+    margin: 3rem auto;
+
+    .blog .carousel-indicators {
+        left: 0;
+        top: auto;
+        bottom: -50px;
+    
+    }
+    
+    /* The colour of the indicators */
+    .blog .carousel-indicators li {
+        background: #a3a3a3;
+        border-radius: 50%;
+        width: 10px;
+        height: 0.5px;
+    }
+    
+    .blog .carousel-indicators .active {
+        background: #707070;
+    }
+}
+
+.userful-link {
+    margin: 3rem auto;
+    padding: 1.5rem 2rem;
+    background-color: $bullet-black;
+    color: white;
+
+    p{
+        margin: 1.5rem auto;
+        font-family: $font-bold;
+    }
+
+    ul{
+        list-style: none;
+        text-align: left;
+
+        li{
+            text-align: left;
+            margin: 0.9rem auto;
+            font-family: $font-thin;
+
+            
+        }
+        .title-link{
+            font-family: $font-bold;
+        }
+    }
+}
+
+.page-footer{
+    position: absolute;
+    margin: 3rem auto 0 auto;
+    padding: 3rem auto;
+    background-color: $bullet-black;
+    color: white;
+
+    p{
+        margin: 1.5rem auto;
+        font-family: $font-bold;
+    }
+}

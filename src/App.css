@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +14,8 @@
   }
 }
 
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +31,7 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +40,5 @@
     transform: rotate(360deg);
   }
 }
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2

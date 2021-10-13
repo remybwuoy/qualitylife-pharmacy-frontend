@@ -1,0 +1,54 @@
+/*
+    Theme Name: Quality Life
+    Author: teamalfy.com
+    Version: 1.0
+*/
+@import url('assets/css/home.css');
+@import url('assets/css/shop.css');
+@import url('assets/css/production-description.css');
+@import url('assets/css/checkout.css');
+@import url('assets/css/doctor-categories.css');
+<<<<<<< HEAD
+@import url('assets/css/assessment.css');
+
+
+.bg-red{
+    color: #dd5560;
+}
+
+nav .navbar-collapse .nav-pills li a{
+    margin:0;
+    font-weight: bold;
+    z-index: 99;
+}
+nav .navbar-collapse .nav-pills li a:hover{
+    margin:0;
+    font-weight: bold;
+    z-index: 99;
+}
+nav .navbar-collapse li a:hover{
+    margin:0;
+    font-weight: bold;
+    background:#72a276;
+   color:#fff;
+}
+.dropdown-menu li .dropdown-item{
+    font-weight: 500;
+    color:#000;
+}
+.dropdown-menu li .dropdown-item:hover{
+    color:#72a276;
+    font-weight: 500;
+    background: transparent;
+}
+.dropdown-menu li .dropdown-item:active{
+    color:#72a276;
+    font-weight: 500;
+    background: transparent;
+}
+.border-right{
+    border-right:1px solid #000;
+}
+=======
+@import url('assets/css/assessment.css');
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2

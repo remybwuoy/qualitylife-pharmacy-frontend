@@ -1,0 +1,521 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-b-black {
+  background-color: #36413e;
+}
+
+.bg-f-green {
+  background-color: #72a276;
+}
+
+.btn {
+  background-color: #dd5560;
+  color: white;
+}
+
+#secondNav {
+  background-color: #36413e;
+<<<<<<< HEAD
+  color:#0000006c;
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
+  text-align: left;
+  color: white;
+}
+
+#secondNav a {
+  color: white;
+  text-align: left;
+}
+
+.title-text h4 {
+  color: #36413e;
+  font-family: "Roboto Bold";
+  font-size: 30px;
+}
+
+.title-text p {
+  color: #36413e;
+  font-family: "Roboto Regular";
+  font-size: 15px;
+}
+
+.top-header {
+  margin: 0;
+  padding: 1rem 1rem;
+}
+
+<<<<<<< HEAD
+.top-header img{
+  text-align: center;
+  display:flex;
+  justify-content: center;
+}
+
+=======
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
+.top-header .input-group input {
+  border-radius: 25px 0 0 25px;
+  border-right: 0;
+}
+
+.top-header .input-group span {
+  border-radius: 0 25px 25px 0;
+  background-color: white;
+  border-left: 0px;
+  padding-right: 50px;
+}
+
+.top-header .customer-service-number {
+  color: #36413e;
+  font-family: "Roboto Bold";
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.top-header .top-customer-service-info div {
+  font-family: "Roboto Bold";
+  font-size: 20px;
+}
+
+.top-header .top-customer-service-info div a {
+  text-decoration: none;
+  color: #dd5560;
+}
+
+.navigationbar {
+  background-color: #36413e;
+  color: white;
+}
+
+.navigationbar a {
+  color: white;
+}
+
+@media screen and (max-width: 360px) {
+  .navigationbar .nav-item {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+  .navigationbar .nav-item .nav-link {
+    padding-left: 1rem;
+  }
+  .navigationbar #navbarSupportedContent {
+    margin-top: 2rem;
+  }
+}
+
+.page-slider {
+<<<<<<< HEAD
+  /* border: 1px solid red; */
+  background-color: beige;
+  background-image: url("../../assets/images/slider-pic.svg");
+  background-position: center;
+  padding-top: 1rem;
+  width: 100%;
+  /* height: auto; */
+=======
+  border: 1px solid red;
+  background-color: beige;
+  background-image: url("../../images/slider-pic.svg");
+  background-position: center;
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  height: 700px;
+}
+
+.page-slider .slider-text {
+  margin: 5rem auto;
+}
+
+.page-slider .slider-text .big-text {
+  font-family: "Roboto Bold";
+  font-size: 30px;
+  margin-top: 3rem;
+}
+
+.page-slider .slider-text .small-text {
+  font-size: 10px;
+}
+
+.page-slider .slider-text .list-text {
+  font-family: "Roboto Bold";
+}
+
+.our-other-service {
+  padding-top: 2.5rem;
+  margin: 2rem auto;
+}
+
+.our-other-service .icon-parent-div {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.our-other-service .icon-parent-div .icon-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #72a276;
+}
+
+.our-other-service .icon-parent-div button {
+  width: 150px;
+  background-color: #dd5560;
+  color: white;
+  font-family: "Roboto Bold";
+  padding: 15px 35px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+}
+
+.our-other-service .row p {
+  color: #36413e;
+  font-family: "Roboto Regular";
+  font-size: 15px;
+  margin: 1rem 0 1rem 0;
+}
+
+.popular-clinics {
+  margin: 4rem auto;
+}
+
+.popular-clinics button {
+  min-width: 150px;
+  background-color: #dd5560;
+  color: white;
+  font-family: "Roboto Bold";
+  padding: 15px 35px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+}
+
+#order-within {
+  background-color: #36413e;
+}
+
+#order-within .social-links {
+<<<<<<< HEAD
+  font-size: 50px;
+=======
+  width: 40px;
+>>>>>>> eb5e17876d2c860eab0797549c6b836a48103dc2
+}
+
+#order-within table {
+  color: white;
+}
+
+#order-within table .p1 {
+  font-family: "Roboto Thin";
+}
+
+#order-within table .p2 {
+  font-family: "Roboto Bold";
+  font-size: 30px;
+}
+
+.best-seller {
+  margin: 5rem auto;
+}
+
+.best-seller p {
+  font-family: "Roboto Regular";
+}
+
+.best-seller .item-div {
+  height: 300px;
+}
+
+.best-seller .item-name {
+  margin: 0 auto;
+}
+
+.best-seller .item-price-now {
+  margin: 0 auto;
+}
+
+.best-seller .item-price-now .save-amount {
+  color: #dd5560;
+}
+
+.best-seller .item-price-now .now-amount {
+  color: #72a276;
+}
+
+.best-seller .item-price-was {
+  margin: 0 auto;
+  text-decoration: line-through;
+}
+
+.best-seller .item-price-was span {
+  color: #72a276;
+}
+
+.best-seller button {
+  margin: 2rem auto;
+}
+
+.how-it-works .icon-parent-div {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.how-it-works .icon-parent-div .icon-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #72a276;
+}
+
+.how-it-works .icon-parent-div .works-title {
+  font-family: "Roboto Bold";
+}
+
+.how-it-works .icon-parent-div .works-text {
+  line-height: 20px;
+}
+
+.how-it-works .icon-parent-div button {
+  width: 150px;
+  background-color: #dd5560;
+  color: white;
+  font-family: "Roboto Bold";
+  padding: 15px 35px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+}
+
+.how-it-works .row p {
+  color: #36413e;
+  font-family: "Roboto Regular";
+  font-size: 15px;
+  margin: 1rem 0 1rem 0;
+}
+
+.how-it-works .video-player {
+  margin: 5rem auto;
+  width: 80%;
+  min-height: 350px;
+  max-height: 500px;
+}
+
+.patient-thoughts {
+  background-color: #36413e;
+  padding: 3rem 0;
+}
+
+.patient-thoughts .title-text h4 {
+  color: white;
+  font-family: "Roboto Bold";
+  font-size: 30px;
+}
+
+.patient-thoughts .title-text p {
+  color: white;
+  font-family: "Roboto Regular";
+  font-size: 15px;
+}
+
+.patient-thoughts .comment-box {
+  height: 250px;
+}
+
+.patient-thoughts .comment-box .comment-text {
+  font-family: "Roboto Thin";
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.patient-thoughts .comment-box .star-icon {
+  color: green;
+}
+
+.patient-thoughts .comment-box .s-pilot {
+  margin: 2rem auto 1rem  auto;
+}
+
+.patient-thoughts .comment-box .tpilot {
+  font-family: "Roboto Bold";
+  font-size: 30px;
+}
+
+.patient-thoughts .comment-box .star-green-bg {
+  background-color: green;
+  padding: 4px;
+}
+
+.patient-thoughts .comment-box .star-green-bg .star-icon-white {
+  color: white;
+}
+
+.our-team {
+  margin: 5rem auto;
+}
+
+.our-team .icon-parent-div {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.our-team .icon-parent-div .works-title {
+  font-family: "Roboto Bold";
+  margin: 1rem auto;
+}
+
+.our-team .icon-parent-div .works-text {
+  font-family: "Roboto Regular";
+  line-height: 20px;
+  margin: 4px auto;
+}
+
+.our-team .icon-parent-div .gmc-code {
+  color: #72a276;
+}
+
+.our-team .icon-parent-div .icon-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #72a276;
+}
+
+.our-team .icon-parent-div button {
+  width: 150px;
+  background-color: #dd5560;
+  color: white;
+  font-family: "Roboto Bold";
+  padding: 15px 35px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+}
+
+.our-discrete-service .main-text {
+  font-family: "Roboto Bold";
+  color: #36413e;
+  margin: 3rem auto;
+}
+
+.our-discrete-service .sub-text {
+  font-family: "Roboto Thin";
+  margin: 3rem auto;
+}
+
+.about-us {
+  background-color: #36413e;
+  padding: 3rem 0;
+  margin: 3rem 0;
+}
+
+.about-us .title-text h4 {
+  color: white;
+  font-family: "Roboto Bold";
+  font-size: 30px;
+}
+
+.about-us .title-text p {
+  color: white;
+  font-family: "Roboto Regular";
+  font-size: 15px;
+}
+
+.in-the-press {
+  margin: 3rem auto;
+  /* The colour of the indicators */
+}
+
+.in-the-press .blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+
+.in-the-press .blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 10px;
+  height: 0.5px;
+}
+
+.in-the-press .blog .carousel-indicators .active {
+  background: #707070;
+}
+
+.userful-link {
+  margin: 3rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #36413e;
+  color: white;
+}
+
+.userful-link p {
+  margin: 1.5rem auto;
+  font-family: "Roboto Bold";
+}
+
+.userful-link ul {
+  list-style: none;
+  text-align: left;
+}
+
+.userful-link ul li {
+  text-align: left;
+  margin: 0.9rem auto;
+  font-family: "Roboto Thin";
+}
+
+.userful-link ul .title-link {
+  font-family: "Roboto Bold";
+}
+
+.page-footer {
+  position: absolute;
+  margin: 3rem auto 0 auto;
+  padding: 3rem auto;
+  background-color: #36413e;
+  color: white;
+}
+
+.page-footer p {
+  margin: 1.5rem auto;
+  font-family: "Roboto Bold";
+}
+/*# sourceMappingURL=home.css.map */

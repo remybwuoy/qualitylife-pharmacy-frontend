@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.body-content {
+  padding: 3rem 5%;
+}
+
+.body-content .bcramp {
+  margin: 3rem auto;
+}
+
+.body-content #accordionExample .accordion-item .filter-accordion {
+  color: white;
+}
+
+.body-content #accordionExample .accordion-item .filter-accordion button {
+  background-color: #36413e;
+  color: white;
+}
+
+.body-content #accordionExample .accordion-item .filter-accordion button .fa {
+  color: white;
+}
+
+.body-content #accordionExample .accordion-item .accordion-body ul {
+  list-style: none;
+}
+
+.body-content #sortbut {
+  background-color: #36413e;
+  padding: auto 5rem;
+}
+/*# sourceMappingURL=shop.css.map */

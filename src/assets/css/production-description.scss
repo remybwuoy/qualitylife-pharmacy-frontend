@@ -1,0 +1,104 @@
+
+@import 'fonts';
+@import 'variables';
+
+.text-thin{
+    font-family: $font-thin;
+}
+.product-description-info{
+    .product-info{
+        // .product-pic{
+
+        // }
+        .product-text{
+            font-family: $font-regular;
+            
+            .product-name{
+                font-family: $font-black;
+            }
+            .cost{
+                color: $forest-green;
+            }
+            .product-feature{
+                font-family: $font-bold;
+            }
+        }
+    }
+    .product-detail-description{
+        .first-btn{
+            border-radius: 15px 0 0 15px;
+        }
+        .last-btn{
+            border-radius: 0 15px 15px 0;
+        }
+        .info-dev{
+            // background-color: $bullet-black;
+            color: white;
+
+            .nav-item{
+                background-color: $bullet-black;
+                .active{
+                    background-color: $forest-green;
+                }
+
+                button{
+                    background-color: $bullet-black;
+                    color: white;
+                    border:0;
+                    padding: 1.5rem;
+
+                    // .first-btn{
+                    //     border-radius: 5px 0 0 5px;
+                    //     background-color: red;
+                    // }
+                    // .last-btn{
+
+                    // }
+                }
+                // .first-btn{
+                //     border-radius: 15px 0 0 15px;
+                // }
+                // .last-btn{
+                //     border-radius: 0 15px 15px 0;
+                // }
+            }
+            .active{
+                background-color: $forest-green;
+            }
+        }
+
+        .tab-content{
+            font-size: 20px;
+            font-family: $font-regular;
+            h3{
+                font-family: $font-black;
+            }
+            h5{
+                font-family: $font-black;
+            }
+        }
+    }
+    .product-variation{
+        .card-header{
+            background-color: $bullet-black;
+            color: white;
+            .card-title{
+                font-family: $font-thin;
+                font-size: $font-regular;
+
+                span{
+                    font-family: $font-bold;
+                }
+            }
+            
+        }
+        .card-body{
+            .cost{
+                color: $forest-green;
+            }
+            .select-variation{
+                font-family: $font-bold;
+            }
+        }
+    }
+}
