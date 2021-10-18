@@ -30,6 +30,9 @@ body {
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration:none;
+}
 
 .bg-b-black {
   background-color: #36413e;
@@ -46,6 +49,7 @@ body {
 
 #secondNav {
   background-color: #36413e;
+  color:#0000006c;
   text-align: left;
   color: white;
 }
@@ -70,6 +74,12 @@ body {
 .top-header {
   margin: 0;
   padding: 1rem 1rem;
+}
+
+.top-header img{
+  text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
 .top-header .input-group input {
@@ -211,7 +221,7 @@ body {
 }
 
 #order-within .social-links {
-  width: 40px;
+  font-size: 50px;
 }
 
 #order-within table {
@@ -237,6 +247,9 @@ body {
 
 .best-seller .item-div {
   height: 300px;
+}
+.best-seller .item-div p {
+font-weight:600;
 }
 
 .best-seller .item-name {

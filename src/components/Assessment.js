@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 
+
 class Assessment extends React.Component {
  render(){
      return(
@@ -17,7 +18,7 @@ class Assessment extends React.Component {
                   {/* <!-- <div class="navbar text-left" id="navbarSupportedContent2"> --> */}
                     <ul class="w-100 navbar-nav nav-pills nav-fill p-0">
                         <li class="nav-item">
-                            <a class="nav-link"><i class="fa fa-check-circle"></i>&nbsp;Express Delivery</a>
+                            <a href="#" class="nav-link"><i class="fa fa-check-circle"></i>&nbsp;Express Delivery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="fa fa-check-circle"></i>&nbsp;Genuine UK Medicine</a>
@@ -29,7 +30,7 @@ class Assessment extends React.Component {
                             <a class="nav-link" href="#"><i class="fa fa-check-circle"></i>&nbsp;UK Registered Pharmacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-check-circle"></i>&nbsp;Confidential & Discrete</a>
+                            <a  class="nav-link" href="#"><i class="fa fa-check-circle"></i>&nbsp;Confidential & Discrete</a>
                         </li>
                     </ul>
                   {/* <!-- </div> --> */}
@@ -42,7 +43,7 @@ class Assessment extends React.Component {
 
                     <div class="col-md-8 ">
                         <div class="login rounded-3">
-                            <p class="py-3"> Ordered Before? <span class="text-red">Log in</span> now, and save time completing your assessment.</p>
+                            <h5 class="py-3"> Ordered Before? <span class="text-red">Log in</span> now, and save time completing your assessment.</h5>
                         </div>
                     </div>
                 </div>
@@ -86,16 +87,15 @@ class Assessment extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-4">
-                        <div class="col-md-4">
-                            <a href="#"><button class="btn btn-white btn-lg">Cancel Assessment</button></a>
+                        <div class="row mt-4 d-flex justify-content-center">
+                            <div class="col-md-4">
+                                <a href="#"><button class="btn btn-outline-danger btn-lg">Cancel Assessment</button></a>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <a href="#"><button class="btn btn-danger btn-lg">Continue to medication</button></a>
+                            </div>
                         </div>
-                        <div class="col-md-4"></div>
-
-                        <div class="col-md-4">
-                        <a href="#"><button class="btn btn-danger btn-lg">Continue to medication</button></a>
-                        </div>
-                    </div>
                     </div>
 
                     <div class="col-md-4">
@@ -105,7 +105,39 @@ class Assessment extends React.Component {
                                     <p class="card-title py-2">Assessment Progress</p>
                                 </div>
                                 <div class="card-body">
+                                {/* const instance = (
+                                <Timeline className="custom-timeline">
+                                    <Timeline.Item dot={< 1 />}>
+                                    <p>Your Hair Loss</p>
+                                    </Timeline.Item>
+                                    <Timeline.Item dot={<2 />}>
+                                    <p>Your Health</p>
+                                    </Timeline.Item>
+                                    <Timeline.Item dot={<3 />}>
+                                    <p>Consent</p>
+                                    </Timeline.Item>
+                            
+                                </Timeline>
+                                );
 
+                                ReactDOM.render(instance); */}
+                                    <div class="timeline">
+                                        <div class="container right">
+                                            <div class="content">
+                                                <h5>Your Hair Loss</h5>     
+                                            </div>
+                                        </div>
+                                        <div class="container right">
+                                            <div class="content">
+                                                <h5>Your Health</h5>
+                                            </div>
+                                        </div>                                       
+                                         <div class="container right">
+                                            <div class="content">
+                                            <h5>Consent</h5>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +161,7 @@ class Assessment extends React.Component {
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-7">
-                                        <img src="./assets/images/paracetamol.svg" class="w-100"/>
+                                        <img src="./images/paracetamol.svg" class="w-100"/>
                                         <p class="py-3">Order within 4 hrs 12 mins for guaranteed next day delivery options</p>
                                         <button class="w-100 btn btn-white">Compare treatments</button>
                                     </div>
@@ -150,7 +182,7 @@ class Assessment extends React.Component {
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-7">
-                                        <img src="./assets/images/paracetamol.svg" class="w-100"/>
+                                        <img src="./assets/images/paracetamol.svg" alt="paracetamol" class="w-100"/>
                                         <p class="py-3">Order within 4 hrs 12 mins for guaranteed next day delivery options</p>
                                         <button class="w-100 btn btn-white">Compare treatments</button>
                                     </div>
@@ -171,7 +203,7 @@ class Assessment extends React.Component {
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-7">
-                                        <img src="./assets/images/paracetamol.svg" class="w-100"/>
+                                        <img src="./assets/images/paracetamol.svg" alt="paracetamol" class="w-100"/>
                                         <p class="py-3">Order within 4 hrs 12 mins for guaranteed next day delivery options</p>
                                         <button class="w-100 btn btn-white">Compare treatments</button>
                                     </div>

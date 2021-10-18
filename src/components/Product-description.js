@@ -59,23 +59,23 @@ class Product extends React.Component {
                             
                             <div class="col-md-6">
                                 <div class="product-pic">
-                                    <img class="img-responsive" width="100%" src="./assets/images/paracetamol.svg"  alt="paracetamol"/>
+                                    <img class="img-responsive" width="100%" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg"  alt="paracetamol"/>
 
                                     <div class="row mini-pics">
                                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                                             <div class="col">
                                                 <div class="card h-100 border-0 mx-auto text-center">
-                                                  <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="paracetamol"/>
+                                                  <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg"  alt="paracetamol"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card h-100 border-0 mx-auto text-center">
-                                                  <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="paracetamol"/>
+                                                  <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg"  alt="paracetamol"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card h-100 border-0 mx-auto text-center">
-                                                  <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="paracetamol"/>
+                                                  <img class="img-rounded my-3" src="http://qualitylifepharmacy.teamalfy.online/images/paracetamol.svg"  alt="paracetamol"/>
                                                 </div>
                                             </div>
                                         </div>

@@ -7,12 +7,13 @@ class Shop extends React.Component {
  render(){
      return(
         <div>
+       <Header />
         {/* <!-- top header --> */}
         <div class="container-fluid p-0 m-0">
             <div class="top-header">
                 <div class="row align-items-center m-0 p-0">
                     <div class="col-md-5 col-sm-6 my-3">
-                      <img src="./assets/images/top-logo.svg"/>
+                      <img src="./assets/images/top-logo.svg" alt="logo"/>
                     </div>
 
                     <div class="col-md-7 col-sm-6 my-3">
@@ -247,7 +248,7 @@ class Shop extends React.Component {
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                                 <div class="col">
                                   <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                    <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                    <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                     <div class="card-body">
                                       <h5 class="card-title">Paracetamol 250mg</h5>
                                       <p class="card-text">From £7.00</p>
@@ -262,7 +263,7 @@ class Shop extends React.Component {
 
                                 <div class="col">
                                     <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                       <div class="card-body">
                                         <h5 class="card-title">Paracetamol 250mg</h5>
                                         <p class="card-text">From £7.00</p>
@@ -277,7 +278,7 @@ class Shop extends React.Component {
 
                                 <div class="col">
                                     <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                       <div class="card-body">
                                         <h5 class="card-title">Paracetamol 250mg</h5>
                                         <p class="card-text">From £7.00</p>
@@ -292,7 +293,7 @@ class Shop extends React.Component {
 
                                 <div class="col">
                                     <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                       <div class="card-body">
                                         <h5 class="card-title">Paracetamol 250mg</h5>
                                         <p class="card-text">From £7.00</p>
@@ -307,7 +308,7 @@ class Shop extends React.Component {
                                 
                                 <div class="col">
                                     <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                       <div class="card-body">
                                         <h5 class="card-title">Paracetamol 250mg</h5>
                                         <p class="card-text">From £7.00</p>
@@ -322,7 +323,7 @@ class Shop extends React.Component {
 
                                 <div class="col">
                                     <div class="card h-100 border-0 px-4 mx-auto text-center">
-                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg" style=""/>
+                                      <img class="img-rounded my-3" src="./assets/images/paracetamol.svg"  alt="para"/>
                                       <div class="card-body">
                                         <h5 class="card-title">Paracetamol 250mg</h5>
                                         <p class="card-text">From £7.00</p>
@@ -436,9 +437,9 @@ class Shop extends React.Component {
                         <ul class="text-left">
                             <li class="title-link">Follow us</li>
                             <li>
-                                <img src="./assets/images/small-icons/twitter.svg" class="mx-1"/>
-                                <img src="./assets/images/small-icons/facebook.svg" class="mx-1"/>
-                                <img src="./assets/images/small-icons/linkedin.svg" class="mx-1"/>
+                                <img src="./assets/images/small-icons/twitter.svg" class="mx-1" alt="twitter"/>
+                                <img src="./assets/images/small-icons/facebook.svg" class="mx-1" alt="facebook"/>
+                                <img src="./assets/images/small-icons/linkedin.svg" class="mx-1" alt="linkedin"/>
                             </li>
                         </ul>
                     </div>
@@ -449,7 +450,7 @@ class Shop extends React.Component {
         {/* <!-- payment integration --> */}
         <div data-aos="fade-up" data-aos-duration="1000" class="container-fluid">
             <div class="mx-auto text-center row">
-                <img class="mx-auto col-md-6 offset-md-3" src="./assets/images/payment.svg" width="100%"/>
+                <img class="mx-auto col-md-6 offset-md-3" src="./assets/images/payment.svg" width="100%" alt="payment"/>
             </div>
             
         </div>
